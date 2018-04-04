@@ -13,16 +13,24 @@
 
         <div class="md-list-text-container">
           <span>{{member.user.first_name}} {{member.user.last_name}}</span>
-          <p>Jan 9, 2014</p>
+          <p>{{member.role}}</p>
         </div>
 
-        <md-button class="md-icon-button md-list-action">
+        <md-button @click="openpage" class="md-icon-button md-list-action">
           <md-icon>info</md-icon>
         </md-button>
     </md-list-item>
 </template>
 <script>
 export default {
-  props: ['member']
+  props: ['member'],
+
+  methods: {
+      openpage: function(){
+          if (this.member && this.member.user){
+              window.location.href= this.member.user.page;
+          }
+      }
+  }
 }
 </script>

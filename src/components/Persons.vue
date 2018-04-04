@@ -7,7 +7,7 @@
     </li>  
     </ul>
 
-    <h2>avec child component:</h2>
+    <h2>avec child component (attribute 'is'):</h2>
     <ul v-if="members.length">
         <li class="person0" is="person"
             v-for="member in members"
@@ -16,7 +16,7 @@
         ></li>
     </ul>
 
-    <h2>avec child component2:</h2>
+    <h2>avec child component (directive):</h2>
     <ul v-if="members.length">
         <person
             v-for="member in members"
@@ -34,7 +34,7 @@
         />
     </ul>
     <div v-if="errors.length">
-        <p v-for="error in errors">{{error}}</p>
+        <p v-for="(error, i) in errors" :key="i">{{error}}</p>
     </div>
 
   </section>
@@ -97,10 +97,9 @@ export default {
       axios.get(url).then(r =>{
         console.log(r.data.data);
         this.extmembers=(r && r.data.data[0].members);
-      })
-     /* .catch(e => {
-        this.errors.push(e)
-     })*/
+      }).catch(e => {
+        this.errors.push(e.message)
+     })
   }
 }
 </script>

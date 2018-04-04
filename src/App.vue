@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <md-toolbar>
+    <nav>
       <h1 class="md-title">My Title</h1>
       <ul>
         <a href="#/">Home</a>
         &nbsp;|&nbsp;
         <a href="#/hello">Hello</a>
       </ul>
-    </md-toolbar>
+    </nav>
     
     <div class="main-content">
       <router-view></router-view>
