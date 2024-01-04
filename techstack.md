@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ludoo0d0a/gov-fr is built on the following main stack:
+
 - [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -11,14 +12,17 @@ ludoo0d0a/gov-fr is built on the following main stack:
 - [ESLint](http://eslint.org/) – Code Review
 - [Vue.js](http://vuejs.org/) – Javascript UI Libraries
 - [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- [Ora](https://ora.pm/) – Project Management
 - [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ludoo0d0a/gov-fr is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/1014/IoPy1dce_400x400.png' alt='.NET'/> [.NET](http://www.microsoft.com/net/) – Frameworks (Full Stack)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1171/jCR2zNJV.png' alt='Sass'/> [Sass](http://sass-lang.com/) – CSS Pre-processors / Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -28,17 +32,19 @@ ludoo0d0a/gov-fr is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/3837/paeckCWC.png' alt='Vue.js'/> [Vue.js](http://vuejs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/6925/preview.png' alt='Ora'/> [Ora](https://ora.pm/) – Project Management
 - <img width='25' height='25' src='https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png' alt='css-loader'/> [css-loader](https://github.com/webpack-contrib/css-loader) – CSS Pre-processors / Extensions
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ludoo0d0a/gov-fr](https://github.com/ludoo0d0a/gov-fr)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|48<br/>Tools used|11/09/23 <br/>Report generated|
+|51<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -153,9 +159,30 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-## Other (2)
+## <img src='https://img.stackshare.io/saas.svg'/> Software as a Service (SaaS) (1)
 <table><tr>
   <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/6925/preview.png' alt='Ora'>
+  <br>
+  <sub><a href="https://ora.pm/">Ora</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+</tr>
+</table>
+
+## Other (3)
+<table><tr>
+  <td align='center'>
+  <img width='36' height='36' src='https://img.stackshare.io/service/2270/no-img-open-source.png' alt='HTML'>
+  <br>
+  <sub><a href="http://">HTML</a></sub>
+  <br>
+  <sub></sub>
+</td>
+
+<td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'>
   <br>
   <sub><a href="https://github.com/mzabriskie/axios">axios</a></sub>
@@ -175,9 +202,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (34)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (35)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (34)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (35)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -189,6 +216,7 @@ Full tech stack [here](/techstack.md)
 |[babel-plugin-transform-vue-jsx](https://www.npmjs.com/babel-plugin-transform-vue-jsx)|v3.5.0|12/05/18|LudoO |MIT|N/A|
 |[babel-preset-env](https://www.npmjs.com/babel-preset-env)|v1.3.2|12/05/18|LudoO |MIT|N/A|
 |[babel-preset-stage-2](https://www.npmjs.com/babel-preset-stage-2)|v6.22.0|12/05/18|LudoO |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v2.0.1|12/05/18|LudoO |MIT|N/A|
 |[copy-webpack-plugin](https://www.npmjs.com/copy-webpack-plugin)|v4.0.1|12/05/18|LudoO |MIT|N/A|
 |[extract-text-webpack-plugin](https://www.npmjs.com/extract-text-webpack-plugin)|v3.0.0|12/05/18|LudoO |MIT|N/A|
 |[file-loader](https://www.npmjs.com/file-loader)|v1.1.4|12/05/18|LudoO |MIT|N/A|
@@ -197,13 +225,13 @@ Full tech stack [here](/techstack.md)
 |[node-notifier](https://www.npmjs.com/node-notifier)|v5.1.2|12/05/18|LudoO |MIT|[CVE-2020-7789](https://github.com/advisories/GHSA-5fw9-fq32-wv5p) (Moderate)|
 |[node-sass](https://www.npmjs.com/node-sass)|v4.10.0|12/05/18|LudoO |MIT|[CVE-2020-24025](https://github.com/advisories/GHSA-r8f7-9pfq-mjmv) (Moderate)<br/>[](https://github.com/advisories/GHSA-9v62-24cr-58cx) (Moderate)|
 |[optimize-css-assets-webpack-plugin](https://www.npmjs.com/optimize-css-assets-webpack-plugin)|v3.2.0|12/05/18|LudoO |MIT|N/A|
-|[ora](https://www.npmjs.com/ora)|v1.2.0|09/14/17|luv |MIT|N/A|
 |[portfinder](https://www.npmjs.com/portfinder)|v1.0.13|12/05/18|LudoO |MIT|N/A|
 |[postcss-import](https://www.npmjs.com/postcss-import)|v11.0.0|12/05/18|LudoO |MIT|N/A|
 |[postcss-loader](https://www.npmjs.com/postcss-loader)|v2.0.8|12/05/18|LudoO |MIT|N/A|
 |[postcss-url](https://www.npmjs.com/postcss-url)|v7.2.1|12/05/18|LudoO |MIT|N/A|
 |[rimraf](https://www.npmjs.com/rimraf)|v2.6.0|09/14/17|luv |ISC|N/A|
 |[sass-loader](https://www.npmjs.com/sass-loader)|v6.0.7|12/05/18|LudoO |MIT|N/A|
+|[semver](https://www.npmjs.com/semver)|v5.3.0|12/05/18|LudoO |ISC|[CVE-2022-25883](https://github.com/advisories/GHSA-c2qf-rxjj-qqgw) (Moderate)|
 |[shelljs](https://www.npmjs.com/shelljs)|v0.7.6|09/14/17|luv |BSD-3-Clause|[CVE-2022-0144](https://github.com/advisories/GHSA-4rq4-32rv-6wp6) (High)<br/>[](https://github.com/advisories/GHSA-64g7-mvw6-v9qj) (Moderate)|
 |[uglifyjs-webpack-plugin](https://www.npmjs.com/uglifyjs-webpack-plugin)|v1.1.1|12/05/18|LudoO |MIT|N/A|
 |[url-loader](https://www.npmjs.com/url-loader)|v0.5.8|12/05/18|LudoO |MIT|N/A|
@@ -219,4 +247,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
